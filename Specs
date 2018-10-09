@@ -1,0 +1,47 @@
+API:
+1. Auth(user, pass, deviceId) return token
+2. Register(user, pass, deviceId, email, name) return bool
+3. Sync(user, token, deviceId, jsonData) return bool
+jsonData: deviceTime, timezone, heartRate, bodyTemperature, GPSLocation, batteryLevel, stressLevel, inActiveDuration
+4. Push(groupId, userId, deviceId, pushTime, message) return bool
+
+
+Mobile:
+1. Home screen
+- sync status
+- welcome message
+- health status
+- heart rate chart
+- lastest message
+
+2. Profile
+- Avatar
+- name
+- age
+- phone
+- email
+- mother number/email
+- father number/email
+- trainer number/email
+- home address
+- work address
+- company / position
+- logout
+
+3. Onboard
+- welcome
+- we care for you
+- tips
+
+5. Push
+- list message
+- message detail
+- badge icon
+- viberate
+
+
+Backend portal:
+1. Data analytics
+2. Reports
+3. Push
+4. ...
